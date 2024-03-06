@@ -2,6 +2,7 @@
 
 
 // Define the prop types for the components
+
 interface BusinessDetailsProps {
   nextComponent: () => void;
 }
@@ -190,6 +191,7 @@ const BusinessDetails = ({nextComponent}:BusinessDetailsProps) => {
             </div>
           </div>
         </div>
+
       </div>
     </>
   );
